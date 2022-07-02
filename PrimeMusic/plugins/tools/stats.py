@@ -362,17 +362,21 @@ async def overall_stats(client, CallbackQuery, _):
 **Physical Cores:** {p_core}
 **Total Cores:** {t_core}
 **Cpu Frequency:** {cpu_freq}
+
 **Python Version :** {pyver.split()[0]}
 **Pyrogram Version :** {pyrover}
 **Py-TgCalls Version :** {pytgver}
+
 **Storage Avail:** {total[:4]} GiB
 **Storage Used:** {used[:4]} GiB
 **Storage Left:** {free[:4]} GiB
+
 **Served Chats:** {served_chats} 
 **Served Users:** {served_users} 
 **Blocked Users:** {blocked} 
-**Sudo Users:** {sudoers} 
+**Sudo Users:** {sudoers}
 **Mongo Uptime:** {mongouptime[:4]} Days
+
 **Total DB Size:** {datasize[:6]} Mb
 **Total DB Storage:** {storage} Mb
 **Total DB Collections:** {collections}
